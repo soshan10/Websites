@@ -4,6 +4,8 @@
   "description": "A simple chat application",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +13,7 @@
     "url": "github.com/soshan10/websites/chatapp"
   },
   "author": "Soshan Fernandes",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
   }
